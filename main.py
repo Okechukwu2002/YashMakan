@@ -6,4 +6,4 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-app.run(debug=True)
+app.run(debug=False,host='0.0.0.0')
